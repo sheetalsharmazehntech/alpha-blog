@@ -1,0 +1,20 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+    background-color: #18160e !important;
+    }
+
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    background-image: url('backgg.jpg');
+    background-size: cover;
+  }
+.wht{
+    color: white;
+}
+.mybgc{
+    background-color: rgb(231, 236, 136);
+}

@@ -1,0 +1,17 @@
+<div class="mybgc">
+ <div class="container row">
+   <div class="col-5">
+     <div class="row justify-content-evenly mt-5">
+       <h1>Showing article details</h1>
+
+           <p><strong>Tile: </strong><%= @article.title %></p>
+           <p><strong>Description: </strong><%= @article.description %></p>
+               <div class="pm-5">
+                 <%= link_to 'Edit' , edit_article_path(@article), class:'btn btn-info' %> 
+                 <%= button_to "DELETE", @article,class:'btn btn-danger', method: :delete , data:{confirm: "Are you sure?" } %>
+                 <%= link_to 'Return to article listing' , articles_path,class:'btn btn-warning' %>
+                </div>
+      </div>
+  </div>
+ </div>
+</div>
